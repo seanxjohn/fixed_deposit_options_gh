@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fixed Deposit Options in Ghana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .grid-item {
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            color: white;
+            font-weight: bold;
+        }
+
+        .grid-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Assigning unique background colors */
+        .grid-item:nth-child(1) { background-color: #0051ba; } /* Bank of Ghana */
+        .grid-item:nth-child(2) { background-color: #004a99; } /* Stanbic Bank */
+        .grid-item:nth-child(3) { background-color: #e2001a; } /* Standard Chartered */
+        .grid-item:nth-child(4) { background-color: #f7931e; } /* GTBank */
+        .grid-item:nth-child(5) { background-color: #f15a24; } /* Izwe Ghana */
+        .grid-item:nth-child(6) { background-color: #009639; } /* GCB Bank */
+        .grid-item:nth-child(7) { background-color: #7db9e8; } /* Republic Bank */
+        .grid-item:nth-child(8) { background-color: #4b0082; } /* First National Bank Ghana */
+        .grid-item:nth-child(9) { background-color: #800000; } /* NIB Ghana */
+        .grid-item:nth-child(10) { background-color: #808000; } /* Fidelity Bank Ghana */
+        .grid-item:nth-child(11) { background-color: #008080; } /* Agricultural Development Bank */
+        .grid-item:nth-child(12) { background-color: #000080; } /* Prudential Bank Limited */
+        .grid-item:nth-child(13) { background-color: #800080; } /* Zenith Bank */
+        .grid-item:nth-child(14) { background-color: #008000; } /* OmniBSIC Bank */
+        .grid-item:nth-child(15) { background-color: #708090; } /* Access Bank */
+        .grid-item:nth-child(16) { background-color: #6a5acd; } /* Bank of Africa */
+        .grid-item:nth-child(17) { background-color: #4682b4; } /* Ecobank */
+        .grid-item:nth-child(18) { background-color: #daa520; } /* Societe Generale */
+        .grid-item:nth-child(19) { background-color: #b8860b; } /* UMB */
+        .grid-item:nth-child(20) { background-color: #a0522d; } /* UBA */
+        .grid-item:nth-child(21) { background-color: #8b4513; } /* Best Point */
+        .grid-item:nth-child(22) { background-color: #5f9ea0; } /* Bayport */
+        .grid-item:nth-child(23) { background-color: #d2691e; } /* CBG */
+    </style>
+</head>
+<body>
+
+<h2>Fixed Deposit Options in Ghana</h2>
+
+<div class="grid-container">
+    <div class="grid-item"><a href="https://www.bog.gov.gh/treasury-and-the-markets/treasury-bill-rates/" target="_blank">Bank of Ghana</a></div>
+    <div class="grid-item"><a href="https://www.stanbicbank.com.gh/gh/personal/products-and-services/grow-your-money/Investment-accounts/Fixed-Deposit-Investment-Account/fixed-deposit" target="_blank">Stanbic Bank Ghana</a></div>
+    <div class="grid-item"><a href="https://www.sc.com/gh/save/fixed-deposit/" target="_blank">Standard Chartered</a></div>
+    <div class="grid-item"><a href="https://www.gtbghana.com/personal-banking/accounts/savings-investment-accounts/fixed-tenured-deposits" target="_blank">GTBank Ghana</a></div>
+    <div class="grid-item"><a href="https://www.izweghana.com/blog/shopping-for-best-interest-rates-what-you-should-know-about-fixed-deposits-and-treasury-bills/" target="_blank">Izwe Ghana</a></div>
+    <div class="grid-item"><a href="https://www.gcbbank.com.gh/about-us/9-products/42-fixed-deposit-accounts.html" target="_blank">GCB Bank</a></div>
+    <div class="grid-item"><a href="https://republicghana.com/products/fixed-deposit-account/" target="_blank">Republic Bank (Ghana) PLC</a></div>
+    <div class="grid-item"><a href="https://www.firstnationalbank.com.gh/save-invest/fixedDeposit.html" target="_blank">First National Bank Ghana</a></div>
+    <div class="grid-item"><a href="https://www.nib-ghana.com/fixed-deposit/" target="_blank">NIB Ghana</a></div>
+    <div class="grid-item"><a href="https://www.fidelitybank.com.gh/personal/111-fixed-deposit-account" target="_blank">Fidelity Bank Ghana</a></div>
+    <div class="grid-item"><a href="https://agricbank.com/customer-care/financials/current-rates/" target="_blank">Agricultural Development Bank</a></div>
+    <div class="grid-item"><a href="https://www.prudentialbank.com.gh/personal/investment-accounts.html" target="_blank">Prudential Bank Limited</a></div>
+    <div class="grid-item"><a href="https://zenithbank.com.gh/personal/individual-accounts/" target="_blank">Zenith Bank</a></div>
+    <div class="grid-item"><a href="https://omnibsic.com.gh/home/TreasuryBankingDtls.php" target="_blank">OmniBSIC Bank</
